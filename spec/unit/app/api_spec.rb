@@ -3,7 +3,7 @@ require_relative '../../../app/api'
 require 'rack/test'
 
 module ExpenseTracker
-  RecordResult = Struct.new(:success?, :expense_id, :error_message)
+  # RecordResult = Struct.new(:success?, :expense_id, :error_message)
 
   RSpec.describe API do
      # as with acceptance specs, using Rack::Test to route http requests to API class
